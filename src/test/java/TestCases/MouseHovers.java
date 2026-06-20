@@ -40,7 +40,7 @@ public void testActionsMouseHovers() throws InterruptedException {
 	 */	
 	logger.info("Test Started");
 	driver.get("https://the-internet.herokuapp.com/hovers");
-	Thread.sleep(3000);
+	Thread.sleep(5000);
 	Actions actions= new Actions(driver);
 	WebElement image1=driver.findElement(By.xpath("//div[@class='example']//child::div//child::img"));
 	WebElement profile1=driver.findElement(By.xpath("//a[text()='View profile']"));
