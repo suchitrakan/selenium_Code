@@ -53,7 +53,7 @@ public void testActionsMouseHovers() throws InterruptedException {
 	WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(3));
 	wait.until(ExpectedConditions.visibilityOf(profile1));
 	profile1.click();
-	//Assert.assertTrue(false);
+	Assert.assertTrue(false);
 	Thread.sleep(3000);
 	WebElement Header=driver.findElement(By.xpath("//h1"));
 	Assert.assertEquals(Header.getText(),"Not Found");
