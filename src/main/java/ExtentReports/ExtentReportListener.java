@@ -22,6 +22,23 @@ public class ExtentReportListener implements ITestListener {
 	        ExtentTest extentTest = BaseTest.getExtent().createTest(result.getMethod().getMethodName());
 	        test.set(extentTest);
 	        logPass("Starting test: " + result.getMethod().getMethodName());
+	        
+	        String screenshotPath = null;
+			 try {
+				 screenshotPath = ScreenshotUtility.captureScreenshot(result.getMethod().getMethodName());
+			 } catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			 }
+	         //System.out.println(screenshotPath);
+	    	 //logFail("Test Failed: " + result.getThrowable());
+
+				
+				  if (test.get() != null && screenshotPath != null) {
+				  test.get().pass(result.getMethod().getMethodName()+"is failed at this step",
+				  MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
+				 	             
+	       	         }
 	    }
 
 	    @Override

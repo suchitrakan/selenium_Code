@@ -536,3 +536,63 @@ Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEd
 2026-06-20 12:07:12 INFO  BaseTest:65 - Starting test: testKeyPresses
 2026-06-20 12:07:12 INFO  BaseTest:72 - Test Key Press Started
 2026-06-20 12:07:23 INFO  BaseTest:65 - Test Passed
+2026-06-20 15:40:45 INFO  BaseTest:65 - Starting test: testActionsMouseHovers
+2026-06-20 15:40:45 INFO  BaseTest:41 - Test Started
+2026-06-20 15:40:51 INFO  BaseTest:49 - Hover Completed
+2026-06-20 15:40:51 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 15:40:51 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 15:40:52 ERROR BaseTest:73 - Test Skipped: java.lang.AssertionError: expected [true] but found [false]
+2026-06-20 15:40:52 INFO  BaseTest:65 - Starting test: testActionsMouseHovers
+2026-06-20 15:40:52 INFO  BaseTest:41 - Test Started
+2026-06-20 15:40:57 INFO  BaseTest:49 - Hover Completed
+2026-06-20 15:40:57 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 15:40:57 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 15:40:58 ERROR BaseTest:73 - Test Skipped: java.lang.AssertionError: expected [true] but found [false]
+2026-06-20 15:40:58 INFO  BaseTest:65 - Starting test: testActionsMouseHovers
+2026-06-20 15:40:58 INFO  BaseTest:41 - Test Started
+2026-06-20 15:41:03 INFO  BaseTest:49 - Hover Completed
+2026-06-20 15:41:03 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 15:41:03 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 15:41:04 INFO  BaseTest:65 - Starting test: testKeyPresses
+2026-06-20 15:41:04 INFO  BaseTest:72 - Test Key Press Started
+2026-06-20 15:41:14 INFO  BaseTest:65 - Test Passed
+2026-06-20 15:49:21 INFO  BaseTest:82 - Starting test: testActionsMouseHovers
+2026-06-20 15:49:21 INFO  BaseTest:41 - Test Started
+2026-06-20 15:49:27 INFO  BaseTest:49 - Hover Completed
+2026-06-20 15:49:27 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 15:49:27 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 15:49:27 ERROR BaseTest:90 - Test Skipped: java.lang.AssertionError: expected [true] but found [false]
+2026-06-20 15:49:27 INFO  BaseTest:82 - Starting test: testActionsMouseHovers
+2026-06-20 15:49:27 INFO  BaseTest:41 - Test Started
+2026-06-20 15:49:33 INFO  BaseTest:49 - Hover Completed
+2026-06-20 15:49:33 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 15:49:33 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 15:49:33 ERROR BaseTest:90 - Test Skipped: java.lang.AssertionError: expected [true] but found [false]
+2026-06-20 15:49:33 INFO  BaseTest:82 - Starting test: testActionsMouseHovers
+2026-06-20 15:49:33 INFO  BaseTest:41 - Test Started
+2026-06-20 15:49:39 INFO  BaseTest:49 - Hover Completed
+2026-06-20 15:49:39 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 15:49:39 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 15:49:40 INFO  BaseTest:82 - Starting test: testKeyPresses
+2026-06-20 15:49:40 INFO  BaseTest:72 - Test Key Press Started
+2026-06-20 15:49:51 INFO  BaseTest:82 - Test Passed
+2026-06-20 16:02:45 INFO  BaseTest:82 - Starting test: testActionsMouseHovers
+2026-06-20 16:02:45 INFO  BaseTest:41 - Test Started
+2026-06-20 16:02:51 INFO  BaseTest:49 - Hover Completed
+2026-06-20 16:02:51 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 16:02:51 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 16:02:52 ERROR BaseTest:90 - Test Skipped: java.lang.AssertionError: expected [true] but found [false]
+2026-06-20 16:02:52 INFO  BaseTest:82 - Starting test: testActionsMouseHovers
+2026-06-20 16:02:52 INFO  BaseTest:41 - Test Started
+2026-06-20 16:02:57 INFO  BaseTest:49 - Hover Completed
+2026-06-20 16:02:57 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 16:02:57 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 16:02:58 ERROR BaseTest:90 - Test Skipped: java.lang.AssertionError: expected [true] but found [false]
+2026-06-20 16:02:58 INFO  BaseTest:82 - Starting test: testActionsMouseHovers
+2026-06-20 16:02:58 INFO  BaseTest:41 - Test Started
+2026-06-20 16:03:04 INFO  BaseTest:49 - Hover Completed
+2026-06-20 16:03:04 WARN  BaseTest:50 - Hover Completed with Warn
+2026-06-20 16:03:04 ERROR BaseTest:51 - Hover Completed with Error
+2026-06-20 16:03:04 INFO  BaseTest:82 - Starting test: testKeyPresses
+2026-06-20 16:03:04 INFO  BaseTest:72 - Test Key Press Started
+2026-06-20 16:03:21 INFO  BaseTest:82 - Test Passed

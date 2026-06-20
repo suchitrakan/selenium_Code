@@ -165,7 +165,7 @@
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at TestCases.MouseHovers.testActionsMouseHovers(MouseHovers.java:56)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 29 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -185,7 +185,7 @@
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at TestCases.MouseHovers.testActionsMouseHovers(MouseHovers.java:56)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 29 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -197,7 +197,7 @@
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at TestCases.MouseHovers.testActionsMouseHovers(MouseHovers.java:56)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 29 stack frames
+... Removed 33 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -227,13 +227,13 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;parameter name=&quot;Report Name&quot; value=&quot;DailyExecution&quot;/&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;ExtentReports.ExtentReportListener&quot;/&gt;
     &lt;listener class-name=&quot;ExtentReports.RetryListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test Edge&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Edge&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestCases.MouseHovers&quot;/&gt;
@@ -280,24 +280,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testKeyPresses')
 data.setCell(0, 2, 'TestCases.MouseHovers')
-data.setCell(0, 3, 11178);
+data.setCell(0, 3, 16606);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testActionsMouseHovers')
 data.setCell(1, 2, 'TestCases.MouseHovers')
-data.setCell(1, 3, 6340);
+data.setCell(1, 3, 6520);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testActionsMouseHovers')
 data.setCell(2, 2, 'TestCases.MouseHovers')
-data.setCell(2, 3, 6221);
+data.setCell(2, 3, 6266);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testActionsMouseHovers')
 data.setCell(3, 2, 'TestCases.MouseHovers')
-data.setCell(3, 3, 6165);
+data.setCell(3, 3, 6188);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -330,33 +330,33 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(edge)</span>
-                <span class="method-start">275 ms</span>
+                <span class="method-start">211 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testActionsMouseHovers</span>
-                <span class="method-start">6668 ms</span>
+                <span class="method-start">7299 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testActionsMouseHovers</span>
-                <span class="method-start">13019 ms</span>
+                <span class="method-start">13823 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testActionsMouseHovers</span>
-                <span class="method-start">19188 ms</span>
+                <span class="method-start">20094 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testKeyPresses</span>
-                <span class="method-start">25562 ms</span>
+                <span class="method-start">26443 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36742 ms</span>
+                <span class="method-start">43053 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDownReport</span>
-                <span class="method-start">36766 ms</span>
+                <span class="method-start">43100 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
