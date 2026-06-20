@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="Report Name" value="DailyExecution"/>
+    <listeners>
+        <listener class-name="ExtentReports.ExtentReportListener"/>
+        <listener class-name="ExtentReports.RetryListener"/>
+    </listeners>
+
+    <test name="Test Edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+             <class name="TestCases.OrangeHRMValidateUser"/>
+             <class name="TestCases.OrangeHRMAssignLeave"/>
+             <class name="TestCases.OrangeHRMTime"/>
+             <class name="TestCases.OrangeHRMValidateUserInformation"/>
+             <class name="TestCases.BasicAuthTestCase"/>
+             <class name="TestCases.FileUpload"/>
+        </classes>
+    </test>
+    
+    
+</suite>
